@@ -14,7 +14,7 @@ Install, update, repair and uninstall your apps — back up your browsers, apps 
 
 <br />
 
-<img src="assets/en/01-dashboard.png" width="900" alt="SyncSetup dashboard" />
+<img src="assets/demo-en.gif" width="880" alt="SyncSetup in 20 seconds: catalogue, updates, backups, optimization and themes" />
 
 </div>
 
@@ -49,14 +49,14 @@ Setting up a PC means visiting dozens of websites, clicking through installers, 
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/en/02-catalog.png" alt="Catalogue" />
+<img src="assets/screenshots/en/02-catalog.png" alt="Catalogue" />
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/en/04-updates.png" alt="Updates" />
+<img src="assets/screenshots/en/04-updates.png" alt="Updates" />
 
 </td>
 <td width="50%" valign="top">
@@ -86,14 +86,14 @@ All your apps **and** packages in a single list.
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/en/03-app-details.png" alt="App details" />
+<img src="assets/screenshots/en/03-app-details.png" alt="App details" />
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/en/08-backups.png" alt="Backups" />
+<img src="assets/screenshots/en/08-backups.png" alt="Backups" />
 
 </td>
 <td width="50%" valign="top">
@@ -123,14 +123,14 @@ All your apps **and** packages in a single list.
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/en/07-optimization.png" alt="Optimization" />
+<img src="assets/screenshots/en/07-optimization.png" alt="Optimization" />
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/en/09-themes.png" alt="Themes" />
+<img src="assets/screenshots/en/09-themes.png" alt="Themes" />
 
 </td>
 <td width="50%" valign="top">
