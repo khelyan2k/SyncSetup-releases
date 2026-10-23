@@ -14,7 +14,7 @@ Installez, mettez à jour, réparez et désinstallez vos logiciels — sauvegard
 
 <br />
 
-<img src="assets/fr/demo-fr.gif" width="880" alt="SyncSetup en 20 secondes : catalogue, mises à jour, sauvegardes, optimisation et thèmes" />
+<img src="assets/demo-fr.gif" width="880" alt="SyncSetup en 20 secondes : catalogue, mises à jour, sauvegardes, optimisation et thèmes" />
 
 </div>
 
@@ -49,14 +49,14 @@ Préparer un PC, c'est visiter des dizaines de sites, cliquer dans des installat
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/fr/02-catalog.png" alt="Catalogue" />
+<img src="assets/screenshots/fr/02-catalog.png" alt="Catalogue" />
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/fr/04-updates.png" alt="Mises à jour" />
+<img src="assets/screenshots/fr/04-updates.png" alt="Mises à jour" />
 
 </td>
 <td width="50%" valign="top">
@@ -86,14 +86,14 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/fr/03-app-details.png" alt="Fiche d'un logiciel" />
+<img src="assets/screenshots/fr/03-app-details.png" alt="Fiche d'un logiciel" />
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/fr/08-backups.png" alt="Sauvegardes" />
+<img src="assets/screenshots/fr/08-backups.png" alt="Sauvegardes" />
 
 </td>
 <td width="50%" valign="top">
@@ -123,14 +123,14 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/fr/07-optimization.png" alt="Optimisation" />
+<img src="assets/screenshots/fr/07-optimization.png" alt="Optimisation" />
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="assets/fr/09-themes.png" alt="Thèmes" />
+<img src="assets/screenshots/fr/09-themes.png" alt="Thèmes" />
 
 </td>
 <td width="50%" valign="top">
