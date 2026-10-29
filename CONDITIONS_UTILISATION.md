@@ -56,7 +56,7 @@ licences.
 - SyncSetup se connecte à Internet pour : rechercher et télécharger les logiciels
   demandés, afficher les icônes des logiciels, vérifier ses propres mises à jour sur
   GitHub, et, seulement si vous l'activez, enregistrer des sauvegardes en ligne
-  (GitHub Gist ou compte SyncSetup). Si vous avez connecté GitHub, il utilise aussi
+  (GitHub Gist). Si vous avez connecté GitHub, il utilise aussi
   cette connexion pour savoir si vous avez mis une étoile au dépôt de SyncSetup, sans
   demander de permission supplémentaire.
 - L'assistant de recommandation et la lecture de la batterie Bluetooth fonctionnent
@@ -145,7 +145,7 @@ publisher. You remain responsible for complying with those licences.
   or sign-in sessions.
 - SyncSetup connects to the Internet to: search for and download the software you ask
   for, display app icons, check for its own updates on GitHub and, only if you turn it
-  on, store online backups (GitHub Gist or SyncSetup account). When you have connected
+  on, store online backups (GitHub Gist). When you have connected
   GitHub, it also uses that same connection to check whether you starred the SyncSetup
   repository, without asking for any extra permission.
 - The recommendation assistant and the Bluetooth battery readout work entirely on

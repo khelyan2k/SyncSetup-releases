@@ -167,7 +167,7 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 |---|---|
 | **Sources officielles uniquement** | Les logiciels s'installent via winget ou le Microsoft Store, avec les fichiers de leur éditeur. Quand SyncSetup doit télécharger lui-même l'installateur d'un éditeur, sa **signature numérique** est vérifiée avant de le lancer. |
 | **Vérifié, jamais supposé** | Une opération n'est annoncée réussie qu'après vérification du résultat sur votre PC. |
-| **Vos données restent chez vous** | Paramètres et sauvegardes restent sur votre PC (`%APPDATA%\syncsetup`). **Aucun compte obligatoire, aucune publicité, aucune télémétrie.** Sauvegarde en ligne (Gist GitHub, compte SyncSetup) seulement si vous l'activez. L'assistant et la batterie fonctionnent entièrement sur votre PC. |
+| **Vos données restent chez vous** | Paramètres et sauvegardes restent sur votre PC (`%APPDATA%\syncsetup`). **Aucun compte obligatoire, aucune publicité, aucune télémétrie.** Sauvegarde en ligne (Gist GitHub secret) seulement si vous l'activez. L'assistant et la batterie fonctionnent entièrement sur votre PC. |
 | **Aucun secret copié** | Les sauvegardes ne contiennent jamais de mot de passe, de cookie, de données de paiement ni de jeton de connexion. |
 | **Sécurité de Windows respectée** | Le mode administrateur est facultatif et ne contourne jamais l'invite UAC de Windows. Les éléments de démarrage importants et les pilotes sont protégés par une confirmation. |
 | **Mises à jour vérifiées** | Chaque mise à jour de SyncSetup est contrôlée (SHA-512) avant d'être installée, et vous pouvez revenir en arrière à tout moment. |
@@ -237,7 +237,7 @@ Dans <code>%APPDATA%\syncsetup</code> sur votre PC (sauvegardes dans <code>%APPD
 <details>
 <summary><b>À quoi SyncSetup se connecte-t-il ?</b></summary>
 <br />
-À winget et aux registres de paquets que vous utilisez (pour installer et mettre à jour), à GitHub (mises à jour de SyncSetup lui-même), à des services d'icônes (icônes des logiciels) — et, seulement si vous les activez, à votre Gist GitHub ou à votre compte SyncSetup pour la sauvegarde en ligne. Si vous avez connecté GitHub, cette même connexion sert aussi à savoir si vous avez mis une étoile au dépôt (aucune permission en plus). L'assistant de recommandation et la lecture de la batterie ne se connectent à rien. Rien d'autre.
+À winget et aux registres de paquets que vous utilisez (pour installer et mettre à jour), à GitHub (mises à jour de SyncSetup lui-même), à des services d'icônes (icônes des logiciels) — et, seulement si vous l'activez, à votre Gist GitHub pour la sauvegarde en ligne. Si vous avez connecté GitHub, cette même connexion sert aussi à savoir si vous avez mis une étoile au dépôt (aucune permission en plus). L'assistant de recommandation et la lecture de la batterie ne se connectent à rien. Rien d'autre.
 </details>
 
 <details>

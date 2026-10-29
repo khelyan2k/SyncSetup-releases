@@ -167,7 +167,7 @@ All your apps **and** packages in a single list.
 |---|---|
 | **Official sources only** | Apps are installed through winget or the Microsoft Store, from the publisher's own files. When SyncSetup has to download a publisher's installer itself, its **digital signature** is checked before it runs. |
 | **Checked, not assumed** | An operation is reported as successful only after SyncSetup has verified the result on your PC. |
-| **Your data stays yours** | Settings and backups stay on your PC (`%APPDATA%\syncsetup`). **No account required, no ads, no telemetry.** Online backup (GitHub Gist, SyncSetup account) only if you turn it on. The assistant and the battery readout work entirely on your PC. |
+| **Your data stays yours** | Settings and backups stay on your PC (`%APPDATA%\syncsetup`). **No account required, no ads, no telemetry.** Online backup (secret GitHub Gist) only if you turn it on. The assistant and the battery readout work entirely on your PC. |
 | **No secrets copied** | Backups never contain passwords, cookies, payment data or sign-in tokens. |
 | **Windows security respected** | Administrator mode is optional and never bypasses Windows' UAC prompt. Important startup items and drivers are protected by a confirmation. |
 | **Verified self-updates** | Each SyncSetup update is checked (SHA-512) before it's installed, and you can roll back at any time. |
@@ -237,7 +237,7 @@ In <code>%APPDATA%\syncsetup</code> on your PC (backups in <code>%APPDATA%\syncs
 <details>
 <summary><b>What does SyncSetup connect to?</b></summary>
 <br />
-winget and the package registries you use (to install and update), GitHub (SyncSetup's own updates), icon services (app icons) — and, only if you turn them on, your GitHub Gist or SyncSetup account for online backup. If you connected GitHub, that same connection is also used to check whether you starred the repository (no extra permission). The recommendation assistant and the battery readout connect to nothing. Nothing else.
+winget and the package registries you use (to install and update), GitHub (SyncSetup's own updates), icon services (app icons) — and, only if you turn it on, your GitHub Gist for online backup. If you connected GitHub, that same connection is also used to check whether you starred the repository (no extra permission). The recommendation assistant and the battery readout connect to nothing. Nothing else.
 </details>
 
 <details>
