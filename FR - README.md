@@ -24,7 +24,7 @@ Installez, mettez à jour, réparez et désinstallez vos logiciels — sauvegard
 
 Préparer un PC, c'est visiter des dizaines de sites, cliquer dans des installateurs, puis tout tenir à jour à la main. **SyncSetup le fait pour vous** — et le fait avec soin :
 
-- 🧩 **Une seule application pour tout** — 314 logiciels choisis, plus tous les paquets de winget, Scoop, Chocolatey, pip, npm et 6 autres gestionnaires.
+- 🧩 **Une seule application pour tout** — 478 logiciels choisis, plus tous les paquets de winget, Scoop, Chocolatey, pip, npm et 6 autres gestionnaires.
 - 🔒 **Uniquement des sources officielles** — les logiciels viennent de leur éditeur, via winget (le gestionnaire de paquets de Microsoft) ou le Microsoft Store. Jamais d'installateur reconditionné.
 - ✅ **Rien n'est supposé** — chaque installation, mise à jour ou désinstallation est vérifiée après coup. Si ça n'a pas marché, SyncSetup vous dit pourquoi, simplement.
 - 💾 **Votre configuration, partout** — profils, sauvegardes et export complet pour passer à un nouveau PC sans repartir de zéro.
@@ -39,12 +39,14 @@ Préparer un PC, c'est visiter des dizaines de sites, cliquer dans des installat
 
 ### 📦 Catalogue
 
-**314 logiciels** classés par catégorie — navigateurs, jeux, communication, développement, vidéo, sécurité, pilotes, streaming, VPN…
+**478 logiciels** classés par catégorie — navigateurs, jeux, communication, développement, vidéo, sécurité, pilotes, streaming, VPN…
 
 - Installation en un clic depuis la **source officielle**, ou la version du **Microsoft Store** si vous préférez
 - Choix d'une **version précise** ou d'un canal (stable, bêta, nightly, LTS…)
 - **Mods** en un clic : Spicetify pour Spotify, Vencord, Equicord, BetterDiscord
 - Services web sans application Windows (YouTube…) en raccourcis web clairement indiqués
+- Filtre **Alternatives** : des équivalents gratuits ou libres aux logiciels payants, avec le prix relevé et sa source
+- Bouton **Lancer** sur les logiciels installés
 
 </td>
 <td width="50%" valign="top">
@@ -68,8 +70,9 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 - Tout mettre à jour en un clic — **plusieurs à la fois** quand c'est sans risque (jamais deux installations Windows Installer ensemble)
 - Vitesse de téléchargement en direct, statuts clairs : ✅ terminé · ℹ️ déjà à jour · ⚠️ à revoir · ❌ échec, avec la raison
 - Rappels quand des mises à jour attendent (au démarrage, toutes les 2, 4 ou 8 h)
-- **Maintenance planifiée** : vérification et mise à jour automatiques, selon votre planning
-- Ignorer une version, ou un logiciel pour de bon
+- **Maintenance planifiée** : vérification et mise à jour automatiques selon votre planning, pour tous les logiciels, tous sauf certains ou seulement certains ; changements de version majeure soumis à votre accord
+- Ignorer une version, un logiciel pour de bon, ou **reporter de 7 jours** ; **revenir à la version d'avant** quand l'éditeur la publie encore
+- Logiciel dont l'installateur a changé de type (Edge…) : outil de mise à jour de l'éditeur, sinon migration proposée, jamais sans votre accord
 
 </td>
 </tr>
@@ -82,6 +85,8 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 - Onglet **Autres programmes** : désinstallez tout ce que Windows connaît, avec son désinstalleur officiel
 - Les installations faites en dehors de SyncSetup sont vues automatiquement
 - Une mise à jour bloquée ? SyncSetup trouve le programme qui retient les fichiers et propose **Fermer et réessayer**
+- Désinstaller **plusieurs logiciels à la fois**, avec un récapitulatif avant de confirmer ; chaque désinstallation est vérifiée, sans faux « échec » quand Windows tarde à se mettre à jour
+- **Historique** de chaque opération : version avant / après, durée, code, explication en clair et quoi faire
 
 </td>
 <td width="50%" valign="top">
@@ -107,6 +112,8 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 - **Exporter / importer** tout SyncSetup dans un seul fichier
 - **Profils** : votre liste de logiciels, réinstallée en un clic sur un nouveau PC
 - Sauvegarde facultative dans un **Gist GitHub secret**
+- **Migration vers un nouveau PC** : aperçu de ce qui sera installé, reprise après une coupure, rapport final
+- Import d'une liste **`winget export`** ou d'un bundle **UniGetUI**
 
 </td>
 </tr>
@@ -118,7 +125,8 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 - **Optimiser maintenant** : ferme ce qui tourne pour rien, libère la mémoire, nettoie les fichiers temporaires — avec un score de santé basé sur de vraies mesures
 - Connaît des centaines de programmes : ce qui peut être fermé, ce qui doit rester ouvert (pilotes, antivirus, anti-triche, synchronisation…)
 - **Gestion du démarrage**, y compris les éléments de tous les utilisateurs, avec un avertissement avant de désactiver quelque chose d'important
-- Matériel et pilotes en un coup d'œil
+- Matériel et pilotes en un coup d'œil, périphériques nommés par leur vrai nom
+- **Batterie des appareils Bluetooth** qui la transmettent à Windows, avec alerte de batterie faible
 
 </td>
 <td width="50%" valign="top">
@@ -142,6 +150,10 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 - **Français ou anglais**
 - Raccourcis clavier, recherche partout, centre de notifications, zone de notification
 - **Se met à jour tout seul** (téléchargement vérifié, retour à n'importe quelle version précédente en un clic)
+- **Tutoriel** guidé à la première ouverture (facultatif)
+- Fenêtre **Quoi de neuf** après chaque mise à jour, une seule fois
+- **Assistant** 100 % local : décrivez votre besoin, il propose des logiciels du catalogue adaptés à votre PC
+- **Ligne de commande** pour les utilisateurs avancés (`syncsetup.cmd`)
 
 </td>
 </tr>
@@ -155,23 +167,44 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 |---|---|
 | **Sources officielles uniquement** | Les logiciels s'installent via winget ou le Microsoft Store, avec les fichiers de leur éditeur. Quand SyncSetup doit télécharger lui-même l'installateur d'un éditeur, sa **signature numérique** est vérifiée avant de le lancer. |
 | **Vérifié, jamais supposé** | Une opération n'est annoncée réussie qu'après vérification du résultat sur votre PC. |
-| **Vos données restent chez vous** | Paramètres et sauvegardes restent sur votre PC (`%APPDATA%\syncsetup`). **Aucun compte obligatoire, aucune publicité, aucune télémétrie.** Sauvegarde en ligne (Gist GitHub, compte SyncSetup) seulement si vous l'activez. |
+| **Vos données restent chez vous** | Paramètres et sauvegardes restent sur votre PC (`%APPDATA%\syncsetup`). **Aucun compte obligatoire, aucune publicité, aucune télémétrie.** Sauvegarde en ligne (Gist GitHub, compte SyncSetup) seulement si vous l'activez. L'assistant et la batterie fonctionnent entièrement sur votre PC. |
 | **Aucun secret copié** | Les sauvegardes ne contiennent jamais de mot de passe, de cookie, de données de paiement ni de jeton de connexion. |
 | **Sécurité de Windows respectée** | Le mode administrateur est facultatif et ne contourne jamais l'invite UAC de Windows. Les éléments de démarrage importants et les pilotes sont protégés par une confirmation. |
 | **Mises à jour vérifiées** | Chaque mise à jour de SyncSetup est contrôlée (SHA-512) avant d'être installée, et vous pouvez revenir en arrière à tout moment. |
+| **Téléchargements vérifiables** | Chaque version publie les empreintes SHA256 de ses fichiers (`SHA256SUMS.txt`) : voir [Vérifier un téléchargement](#-vérifier-un-téléchargement). |
 
 <br />
 
 ## 📥 Installation
 
 1. Téléchargez **`SyncSetup-Setup-x.y.z.exe`** depuis la **[dernière version](https://github.com/khelyan2k/SyncSetup-releases/releases/latest)**.
-2. Lancez-le et suivez l'installateur — il s'installe pour votre compte Windows, sans droits administrateur.
+2. Lancez-le : choisissez la langue, puis les options de fin (lancer SyncSetup, démarrage avec Windows, raccourcis) — il s'installe pour votre compte Windows, sans droits administrateur. Déjà installé ? Il propose de mettre à niveau, réparer ou désinstaller.
 3. C'est tout. SyncSetup se met ensuite à jour tout seul.
 
 > [!NOTE]
 > L'installateur n'est pas encore signé (un certificat coûte plusieurs centaines d'euros par an) : Windows peut afficher **« Windows a protégé votre ordinateur »**. Cliquez sur **Informations complémentaires → Exécuter quand même**. Vous pouvez vérifier chaque version sur [VirusTotal](https://www.virustotal.com) avant de la lancer.
 
 **Configuration requise :** Windows 10 ou 11, 64 bits · winget (inclus dans Windows 11 et Windows 10 à jour).
+
+<br />
+
+## 🔐 Vérifier un téléchargement
+
+Chaque version publie l'empreinte SHA256 de ses fichiers : dans le fichier **`SHA256SUMS.txt`** joint à la version et dans la section « Vérification d'intégrité » de ses notes. Si l'empreinte de votre fichier est identique, il n'a pas été modifié.
+
+Dans PowerShell, depuis le dossier du téléchargement :
+
+```powershell
+Get-FileHash .\SyncSetup-Setup-x.y.z.exe -Algorithm SHA256
+```
+
+Ou dans l'invite de commandes :
+
+```bat
+certutil -hashfile SyncSetup-Setup-x.y.z.exe SHA256
+```
+
+Les mises à jour automatiques de SyncSetup font ce contrôle toutes seules (empreinte SHA-512 de `latest.yml`).
 
 <br />
 
@@ -204,13 +237,19 @@ Dans <code>%APPDATA%\syncsetup</code> sur votre PC (sauvegardes dans <code>%APPD
 <details>
 <summary><b>À quoi SyncSetup se connecte-t-il ?</b></summary>
 <br />
-À winget et aux registres de paquets que vous utilisez (pour installer et mettre à jour), à GitHub (mises à jour de SyncSetup lui-même), à des services d'icônes (icônes des logiciels) — et, seulement si vous les activez, à votre Gist GitHub ou à votre compte SyncSetup pour la sauvegarde en ligne. Rien d'autre.
+À winget et aux registres de paquets que vous utilisez (pour installer et mettre à jour), à GitHub (mises à jour de SyncSetup lui-même), à des services d'icônes (icônes des logiciels) — et, seulement si vous les activez, à votre Gist GitHub ou à votre compte SyncSetup pour la sauvegarde en ligne. Si vous avez connecté GitHub, cette même connexion sert aussi à savoir si vous avez mis une étoile au dépôt (aucune permission en plus). L'assistant de recommandation et la lecture de la batterie ne se connectent à rien. Rien d'autre.
 </details>
 
 <details>
 <summary><b>Comment le désinstaller ?</b></summary>
 <br />
-Paramètres Windows › Applications › SyncSetup › Désinstaller. Vos réglages restent dans <code>%APPDATA%\syncsetup</code> jusqu'à ce que vous supprimiez ce dossier.
+Paramètres Windows › Applications › SyncSetup › Désinstaller (ou relancez l'installateur). Vous choisissez : <b>conserver vos données</b> (par défaut, pour une réinstallation) ou <b>tout supprimer</b> (<code>%APPDATA%\syncsetup</code> et les réglages de SyncSetup ; vos sauvegardes de logiciels peuvent être gardées). Vos logiciels installés ne sont jamais touchés.
+</details>
+
+<details>
+<summary><b>Tout fonctionne-t-il pour tous les logiciels ?</b></summary>
+<br />
+Installer, mettre à jour et désinstaller : oui, pour tout le catalogue. D'autres fonctions dépendent du logiciel : <b>choix de version</b> et <b>retour arrière</b> (si winget publie encore la version), <b>réparation</b> (si son installateur la propose), <b>installation silencieuse</b> (si son installateur le permet), bouton <b>Lancer</b> (si SyncSetup trouve un point d'entrée sûr), <b>mods</b> (Spotify et Discord), <b>batterie</b> (seulement les appareils Bluetooth qui la transmettent à Windows). La fiche technique de chaque logiciel indique ce qui est possible.
 </details>
 
 <br />
@@ -219,7 +258,11 @@ Paramètres Windows › Applications › SyncSetup › Désinstaller. Vos régla
 
 Un bug, une idée ? **[Ouvrez un ticket](https://github.com/khelyan2k/SyncSetup-releases/issues)** — ou écrivez-moi sur Discord : **`.khelyan`**.
 
-Si SyncSetup vous fait gagner du temps, une ⭐ sur cette page aide beaucoup !
+Si SyncSetup vous fait gagner du temps, une ⭐ sur cette page aide beaucoup ! Et si vous voulez aller plus loin : **[☕ Soutenir SyncSetup sur Ko-fi](https://ko-fi.com/syncsetup)**.
+
+Une faille de sécurité ? Ne la publiez pas : suivez [SECURITY.md](SECURITY.md) (signalement privé).
+
+[Conditions d'utilisation](CONDITIONS_UTILISATION.md) · [Composants tiers](THIRD-PARTY-NOTICES.txt) · [Documentation (wiki)](https://github.com/khelyan2k/SyncSetup-releases/wiki)
 
 <br />
 
