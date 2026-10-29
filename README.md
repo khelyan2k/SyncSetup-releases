@@ -39,7 +39,7 @@ Setting up a PC means visiting dozens of websites, clicking through installers, 
 
 ### 📦 Catalogue
 
-**478 apps** sorted by category — browsers, games, communication, development, video, security, drivers, streaming, VPNs…
+**478 apps** in 40 categories and 7 groups — browsers, games, messaging, development, video, security, drivers, streaming, VPNs… An app can sit in several categories (OBS: streaming and video editing).
 
 - Install in one click from the **official source**, or the **Microsoft Store** version when you prefer
 - Choose a **specific version**, or a channel (stable, beta, nightly, LTS…)
@@ -126,7 +126,8 @@ All your apps **and** packages in a single list.
 - Knows hundreds of programs: what can be closed, what must stay open (drivers, antivirus, anti-cheat, sync…)
 - **Startup manager**, including system-wide entries, with a warning before you disable something important
 - Hardware and drivers at a glance, devices shown by their real name
-- **Battery of Bluetooth devices** that report it to Windows, with a low-battery alert
+- **Bluetooth on the dashboard**: connected, paired and nearby devices; connect or disconnect speakers and headphones in one click
+- **Battery of Bluetooth devices** that report it to Windows, with a low-battery alert and optional floating **battery bubbles** that never take focus
 
 </td>
 <td width="50%" valign="top">
@@ -152,7 +153,7 @@ All your apps **and** packages in a single list.
 - **Updates itself** (verified download, one-click rollback to any previous version)
 - Guided **tutorial** on first launch (optional)
 - **What's new** window after each update, shown once
-- 100% local **assistant**: describe what you need, it suggests catalogue apps suited to your PC
+- 100% local **assistant**: describe what you need or name an app (typos are fine); built-in help and a floating bubble
 - **Command line** for advanced users (`syncsetup.cmd`)
 
 </td>

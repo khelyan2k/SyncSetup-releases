@@ -39,7 +39,7 @@ Préparer un PC, c'est visiter des dizaines de sites, cliquer dans des installat
 
 ### 📦 Catalogue
 
-**478 logiciels** classés par catégorie — navigateurs, jeux, communication, développement, vidéo, sécurité, pilotes, streaming, VPN…
+**478 logiciels** en 40 catégories et 7 groupes — navigateurs, jeux, messagerie, développement, vidéo, sécurité, pilotes, streaming, VPN… Un logiciel peut être dans plusieurs catégories (OBS : streaming et montage vidéo).
 
 - Installation en un clic depuis la **source officielle**, ou la version du **Microsoft Store** si vous préférez
 - Choix d'une **version précise** ou d'un canal (stable, bêta, nightly, LTS…)
@@ -126,7 +126,8 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 - Connaît des centaines de programmes : ce qui peut être fermé, ce qui doit rester ouvert (pilotes, antivirus, anti-triche, synchronisation…)
 - **Gestion du démarrage**, y compris les éléments de tous les utilisateurs, avec un avertissement avant de désactiver quelque chose d'important
 - Matériel et pilotes en un coup d'œil, périphériques nommés par leur vrai nom
-- **Batterie des appareils Bluetooth** qui la transmettent à Windows, avec alerte de batterie faible
+- **Bluetooth sur le tableau de bord** : appareils connectés, appairés et à proximité ; connecter ou déconnecter enceintes et casques en un clic
+- **Batterie des appareils Bluetooth** qui la transmettent à Windows, avec alerte de batterie faible et **bulles de batterie** flottantes facultatives, qui ne prennent jamais le focus
 
 </td>
 <td width="50%" valign="top">
@@ -152,7 +153,7 @@ Tous vos logiciels **et** vos paquets dans une seule liste.
 - **Se met à jour tout seul** (téléchargement vérifié, retour à n'importe quelle version précédente en un clic)
 - **Tutoriel** guidé à la première ouverture (facultatif)
 - Fenêtre **Quoi de neuf** après chaque mise à jour, une seule fois
-- **Assistant** 100 % local : décrivez votre besoin, il propose des logiciels du catalogue adaptés à votre PC
+- **Assistant** 100 % local : décrivez votre besoin ou nommez un logiciel (fautes tolérées) ; aide intégrée et bulle flottante
 - **Ligne de commande** pour les utilisateurs avancés (`syncsetup.cmd`)
 
 </td>
